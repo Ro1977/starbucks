@@ -49,3 +49,34 @@ img {
     color: #fff;
     font-size: 25px;
 }
+
+.main__container-logo {
+    display: none;
+}
+
+.main__title  {
+    font-size: 50px;
+    line-height: 1.2;
+
+}
+
+.main__title span {
+    color: rgb(14, 98, 14);
+}
+
+.main__description {
+    margin-top: 20px;
+    font-weight: bolder;
+    
+}
+
+.main {
+    margin-top: 80px;
+    padding: 15px 15px 60px;
+
+}
+
+.main__container-text {
+    display: flex;
+    flex-direction: column;
+}
