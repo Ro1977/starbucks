@@ -286,3 +286,161 @@ img {
     top: -25px;
     
 }
+
+.footer {
+    background: #000;
+    padding: 25px 15px;
+    color: #fff;
+}
+
+  .footer__container-user {
+    display: flex;
+    flex-direction: column;
+}
+
+  .footer__link-contact {
+    text-decoration: none;
+    color: rgb(14, 94, 14);
+}
+
+  .footer__link-user {
+    color: rgb(8, 108, 8);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+  .footer__container-social i {
+    color: rgb(12, 100, 12);
+    font-size: 22px;
+}
+
+  .footer__container-social {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+@media (min-width: 768px) {
+    .header__container-user-mobile {
+      display: none;
+  }
+  
+  
+    .header__container-user {
+      display: block;
+  }
+  
+    .header__container-user i {
+      color: #fff;
+      font-size: 25px;
+  }
+  
+    .header__nav {
+      display: block;
+  }
+  
+    .header__nav-link {
+      text-decoration: none;
+      color: #fff;
+      margin-left: 15px;
+  }
+  
+    .main__container-logo {
+      display: block;
+  }
+  
+    .main__logo {
+      width: 80%;
+  }
+  
+    .main {
+      display: flex;
+      padding: 15px 30px 60px;
+  }
+    .main__container-text {
+      width: 50%;
+  }
+  
+    .main__container-logo {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+    .gallery {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+  }
+  
+    .gallery__img {
+      width: 30%;
+      margin-top: 0;
+  }
+  
+    .contact__form {
+      width: 400px;
+  }
+  
+    .cards {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+  }
+  
+    .cards__card {
+      width: 40%;
+  }
+  
+    .footer {
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  }
+  
+  @media (min-widht: 1024px) {
+      .main__logo {
+          width: 350px;
+      }
+      
+      .main {
+          display: flex;
+          padding: 15px 100px 60px;
+      }
+      
+      .gallery__img {
+          width: 300px;
+          margin-top: 0;
+          margin-left: 25px;
+      }
+      
+      .gallery {
+          justify-content: center;
+      }
+     
+      .contact__form {
+          width: 800px;
+      }
+     
+      .contact__input label {
+          font-size: 17px;
+      }
+  
+     .cards__container-btn {
+      flex-direction: row;
+     }
+  
+     .cards__container-btn a {
+      margin-left: 7.5px;
+     }
+  
+     .footer {
+      height: 250px;
+      align-items: center;
+     }
+  }
